@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Car Management System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="m-4 text-white fs-1 text">Car Management System</h1>
+      <div class="box1 p-3">
+         <form class="row g-3">
+          <div class="col-md-6">
+            <label for="formGroupExampleInput" class="form-label"
+              >Car Name</label
+            >
+            <input
+              type="text"
+              class="form-control carName"
+              id="formGroupExampleInput"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="formGroupExampleInput" class="form-label"
+              >Model Year</label
+            >
+            <input
+              type="number"
+              class="form-control modelYear"
+              id="formGroupExampleInput"
+             />
+          </div>
+          <div class="col-md-6">
+            <label for="formGroupExampleInput" class="form-label"
+              >Price (PKR)</label
+            >
+            <input
+              type="number"
+              class="form-control price"
+              id="formGroupExampleInput"
+             />
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Color</label>
+            <select id="inputState" class="form-select color">
+              <option value="Choose..." selected>Choose...</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+              <option value="Silver">Silver</option>
+              <option value="Grey">Grey</option>
+              <option value="Red">Red</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Address</label>
+            <select id="inputState" class="form-select address">
+              <option value="Choose..." selected>Choose...</option>
+              <option value="Defence">Defence</option>
+              <option value="Clifton">Clifton</option>
+              <option value="DHA">DHA</option>
+              <option value="Bahria">Bahria Town</option>
+              <option value="Zamzama">Zamzama</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Status</label>
+            <select id="inputState" class="form-select status">
+              <option value="Choose..." selected>Choose...</option>
+              <option value="Available">Available</option>
+              <option value="Booked">Booked</option>
+              <option value="Sold">Sold</option>
+            </select>
+          </div>
+          <div class="d-grid gap-2 col-md-6 mx-auto">
+            <button onclick="addCar()" type="button" class="btn  " id="btn1">Add Car</button>
+          </div>
+          <div class="d-grid gap-2 col-md-6 mx-auto">
+            <button onclick="clearAll()" type="button" class="btn  " id="btn2">Clear All</button>
+          </div>
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button onclick="showAllCars()"  type="button" class="btn  " id="btn3">Show All Cars</button>
+          </div>
+          </form>
+        </div>
+ 
+
+        <div class="box2 p-3 d-flex gap-2  flex-wrap justify-content-center">
+      </div> 
+
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
