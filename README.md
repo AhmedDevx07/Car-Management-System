@@ -49,11 +49,17 @@ This project allows users to **add**, **view**, **search**, and **delete** car l
 
 ---
 
-## 🧑‍💻 Author
+ 
+  ## 👨‍💻 Author
 
-**Muhammad Ahmed**
-💼 [LinkedIn](http://www.linkedin.com/in/muhammad-ahmed-dev07) | 🐙 [GitHub](https://github.com/ahmed-devx)
+**Muhammad Ahmed (AhmedDevx07)**
+🚀 Full Stack MERN Developer
+🎨 Passionate about Modern UI/UX & Scalable Web Apps
 
----
+### 🌐 Connect With Me
+
+* 🐙 GitHub: https://github.com/AhmedDevx07
+* 💼 LinkedIn: https://linkedin.com/in/ahmeddevx07
+
 
  
